@@ -1,22 +1,22 @@
 #include "shell.h"
 
 /**
- * token - Split and create a string array from input.
+ * tokening - Split and create a string array from input.
  * @s: delimiter for strtok.
- * @buffer: The input string to be but as token.
+ * @buffer: The input string to be tokenized.
  * Return: An array of strings containing the tokens.
  */
-char **token(char *buffer, const char *s)
+char **tokening(char *buffer, const char *s)
 {
 	char *token = NULL, **tokens = NULL;
-	size_t buffsize = 0;
+	size_t bufsize = 0;
 	int a = 0;
 
 	if (buffer == NULL)
 		return (NULL);
 
-	buffsize = _strlen(buffer);
-	tokens = malloc((buffsize + 1) * sizeof(char *));
+	bufsize = _strlen(buffer);
+	tokens = malloc((bufsize + 1) * sizeof(char *));
 	if (tokens == NULL)
 	{
 		perror("Unable to allocate buffer");
