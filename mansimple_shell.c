@@ -56,15 +56,15 @@ Hello World
 
 \fBpwd [OPTIONS..]\fR - Prints the working directory.
 Hell_Shell>> pwd
-/home/vagrant/HOLBERTON/simple_shell
+/home/vagrant/alx/simple_shell
 
 Ctrl + D - Quits the program.
 Hell_Shell>> ^D
-vagrant@vagrant-ubuntu-trusty-64:~/HOLBERTON/simple_shell$
+vagrant@vagrant-ubuntu-trusty-64:~/alx/simple_shell$
 
 \fBexit\fR - Exits the shell.
 Hell_Shell>> exit
-vagrant@vagrant-ubuntu-trusty-64:~/HOLBERTON/simple_shell$
+vagrant@vagrant-ubuntu-trusty-64:~/alx/simple_shell$
 
 .SH BUGS
 No known bugs at this time.
