@@ -67,7 +67,7 @@ void print_environment(char **env)
 }
 
 /**
- * get_pathways_from_env - variables with the help of the function get_pathways_from_env. 
+ * get_pathways_from_env - variables with the help of the function get_pathways_from_env.
  * @env: The pointer to environmental variables
  * Return: All command tokenized paths.
  */
