@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef SHELL_H
 #define SHELL_H
 
@@ -58,7 +57,8 @@ struct flags
 {
 	bool interactive;
 } flags;
-=======
+
+
 #ifndef _SHELL_H_
 #define _SHELL_H_
 
@@ -106,9 +106,6 @@ unsigned int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 char *_strcat(char *dest, char *src);
-
-/*================ END =================*/
->>>>>>> 0443c86ff4679d5e323e4d063cf10fa6490f4e49
 
 #endif
 
